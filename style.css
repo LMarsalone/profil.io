@@ -1,0 +1,69 @@
+body, html {
+    background: linear-gradient(to top, navy, black);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color:navy;
+    font-size: 50px;
+}
+
+.little-pic {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#Profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 1px;
+    margin: 20px 250px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px navy;
+}
+
+.identite {
+    display: flex;
+    flex: auto;
+    text-align: center;
+    margin: 20px 150px;
+    text-align: left;
+}
+.vie {
+    flex: 1;
+    font-size: 30px;
+    text-align: right;
+}
+
+p {
+    color:navy;
+}
+
+.email-button {
+    display: inline-block;
+    background-image: url(https://cdn-icons-png.freepik.com/256/561/561127.png); 
+    background-size: cover;
+    padding: 40px 40px;
+    margin: 10px 10px;
+}
+
+.email-button:hover {
+    transform: translateY(-3px);
+}
+
+.phone-number {
+    display: none;
+    font-size: 18px;
+}
+
+.phone-button:hover + .phone-number {
+    display: block;
+}
